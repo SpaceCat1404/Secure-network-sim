@@ -1,0 +1,12 @@
+# Ignore Suricata runtime logs and other generated files
+suricata-logs/
+
+# Ignore container/runtime artifacts
+*.log
+*.tmp
+
+# OS/editor
+.DS_Store
+__pycache__/
+.vscode/
+node_modules/

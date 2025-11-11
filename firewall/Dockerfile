@@ -4,7 +4,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-      iptables iproute2 suricata suricata-update conntrack jq && \
+      iptables iproute2 curl suricata suricata-update conntrack jq && \
     rm -rf /var/lib/apt/lists/*
 
 COPY start.sh /usr/local/bin/start.sh
