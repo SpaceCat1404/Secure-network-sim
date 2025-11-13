@@ -1,6 +1,6 @@
 # Secure Segmented Network Simulation
 
-This project implements a containerized version of the secure segmented network simulation described in `Idea 1_ Secure Segmented Network Simulation.md`, using Docker Compose to simulate the network architecture, firewall rules, and IDS.
+This project implements a containerized version of the secure segmented network simulation using Docker Compose to simulate the network architecture, firewall rules, and IDS.
 
 ## Prerequisites
 - Docker Desktop installed and running.
